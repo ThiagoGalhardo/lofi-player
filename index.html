@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoFi Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./files/favicon.ico" />
+</head>
+
+<body>
+
+    <div class="toggle">
+
+        <a href="#" class="material-icons" id="icon-theme">
+            <i class="small material-icons">brush</i>
+        </a>
+
+        <a href="#" class="material-icons" id="icon-theme-close">
+            <i class="small material-icons">close</i>
+        </a>
+
+    </div>
+    <header>
+        <nav>
+
+            <div class="topbar">
+
+
+                <ul>
+                    <li>
+                        <button class="category" id="button-hiphop">HipHop</button>
+                    </li>
+
+
+                    <li>
+                        <button class="category" id="button-study">Study</button>
+                    </li>
+
+
+                    <li>
+                        <button class="category" id="button-relax">Relax</button>
+                    </li>
+
+
+
+                </ul>
+
+            </div>
+
+            <div class="sidebar">
+                <ul class="menu">
+
+
+                    <p class="theme-menu">Tema e configurações</p>
+
+                    <p class="theme-menu">Escolha o tema</p>
+
+                    <li> <input type="radio" id="theme-light" name="theme" value="1" checked>
+                        <label for="theme-light">Claro</label>
+                    </li>
+
+                    <li> <input type="radio" id="theme-dark" name="theme" value="0">
+                        <label for="theme-dark">Escuro</label>
+                    </li>
+
+
+
+
+
+                    <p class="theme-menu">Escolha sua cor</p>
+                    <li> <input type="radio" id="radio-theme-blue" name="color" value="1" checked>
+                        <label for="radio-theme-blue">Azul</label>
+                    </li>
+
+                    <li> <input type="radio" id="radio-theme-green" name="color" value="0">
+                        <label for="radio-theme-green">Verde</label>
+                    </li>
+
+                    <li> <input type="radio" id="radio-theme-yellow" name="color" value="0">
+                        <label for="radio-theme-yellow">Amarelo</label>
+                    </li>
+
+                    <li> <input type="radio" id="radio-theme-pink" name="color" value="0">
+                        <label for="radio-theme-pink">Rosa</label>
+                    </li>
+
+
+                    <li> <input type="radio" id="radio-theme-red" name="color" value="0">
+                        <label for="radio-theme-red">Vermelho</label>
+                    </li>
+
+                    <li> <input type="radio" id="radio-theme-purple" name="color" value="0">
+                        <label for="radio-theme-purple">Roxo</label>
+                    </li>
+
+                    <li> <input type="radio" id="radio-theme-gray" name="color" value="0">
+                        <label for="radio-theme-gray">Cinza</label>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="player">
+            <h4><i class="material-icons">equalizer</i>LoFi Player</h4>
+            <div class="card">
+                <div class="card-image">
+
+                </div>
+                <div class="card-content">
+                    <p class="text-title-music">Title</p>
+                    <p class="artist">Artist</p>
+                    <div class="row valign-wrapper" id="player-controls">
+                        <div class="col s2" id="current-duration">00:00</div>
+                        <div class="col s6 range-field valign-wrapper">
+                            <audio></audio>
+                            <input type="range" min="0" max="0" value="0" id="seekbar" name="seekbar" step="1" />
+
+                        </div>
+                        <div class="col s2" id="total-duration">00:00</div>
+                        <div>
+                            <a href="#">
+                                <i class="material-icons" id="volume-icon">volume_up</i>
+                            </a>
+                        </div>
+                        <div class="col s3 range-field valign-wrapper" id="volume">
+                            <input type="range" min="0" max="100" value="100" id="volume-control" step="1" />
+                        </div>
+                    </div>
+                </div>
+                <div class="change-tracks">
+                    <a href="#" class="btn-floating btn-large" id="previous-track">
+                        <i class="material-icons">skip_previous</i>
+                    </a>
+
+                    <a href="#" class="btn-floating btn-large" id="play-pause">
+                        <i class="material-icons">play_arrow</i>
+                    </a>
+
+
+                    <a href="#" class="btn-floating btn-large" id="next-track">
+                        <i class="material-icons">skip_next</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="musics">
+            <div class="previous">
+
+                <p class="text-playlist">Musicas anteriores</p>
+
+                <div class="card-musics">
+                    <img id="cover-previous" src="./files/cover-static.jpg" alt="imagem">
+                    <div class="artist-details" id="details-previous">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="now">
+                <p class="text-playlist">Tocando agora</p>
+                <div class="card-musics" id="card-now-cover">
+                    <img id="cover-now" src="./files/cover-static.jpg" alt="imagem">
+                    <div class="artist-details" id="details-now">
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="next">
+                <p class="text-playlist">Próxima música</p>
+                <div class="card-musics">
+                    <img id="cover-next" src="./files/cover-static.jpg" alt="imagem">
+                    <div class="artist-details" id="details-next">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <script src="themes.js"></script>
+    <script src="data.js"></script>
+    <script src="player.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
