@@ -7,14 +7,12 @@ window.hiphop = [
         file: "chill-weekend.mp3"
     },
 
-
     {
         title: "Skywriter",
         artist: "Nightmare Beats",
         cover: "cover-static.jpg",
         file: "skywriter.mp3"
     },
-
 
     {
         title: "Primeiro de Janeiro",
@@ -37,7 +35,6 @@ window.hiphop = [
         file: "lofibass.mp3"
     },
 
-
     {
         title: "Chill Gaming",
         artist: "David Fesliyan",
@@ -52,16 +49,12 @@ window.hiphop = [
         file: "i-got-this.mp3"
     },
 
-
-
     {
         title: "Sand Trap",
         artist: "Steve Oxen",
         cover: "cover-static.jpg",
         file: "sand-trap.mp3"
     },
-
-
 
     {
         title: "Tokyo Lo-Fi",
@@ -70,14 +63,12 @@ window.hiphop = [
         file: "tokyo-lo-fi.mp3"
     },
 
-
     {
         title: "Out And About",
         artist: "David Renda",
         cover: "cover-static.jpg",
         file: "out-and-about.mp3"
     },
-
 
 ];
 
@@ -92,14 +83,12 @@ window.study = [
         file: "heart-of-the-ocean.mp3"
     },
 
-
     {
         title: "Balloon",
         artist: "Purrple Cat",
         cover: "cover-static.jpg",
         file: "balloon.mp3"
     },
-
 
     {
         title: "Missing You",
@@ -122,14 +111,12 @@ window.study = [
         file: "tabula-rasa.mp3"
     },
 
-
     {
         title: "Midnight Snack",
         artist: "Purrple Cat",
         cover: "cover-static.jpg",
         file: "midnight-snack.mp3"
     },
-
 
     {
         title: "Wild Strawberry",
@@ -138,14 +125,12 @@ window.study = [
         file: "strawberry.mp3"
     },
 
-
     {
         title: "Shipwreck Cove",
         artist: "Purrple Cat",
         cover: "cover-static.jpg",
         file: "shipwreck-cove.mp3"
     },
-
 
     {
         title: "Wanted",
@@ -181,17 +166,12 @@ window.relax = [{
         file: "bedtime-after-a-coffee.mp3"
     },
 
-
-
-
     {
         title: "Hot Coffee",
         artist: "Ghostrifter",
         cover: "cover-static.jpg",
         file: "hot-coffee.mp3"
     },
-
-
 
     {
         title: "Merry Bay",
@@ -200,16 +180,12 @@ window.relax = [{
         file: "merry-bay.mp3"
     },
 
-
-
     {
         title: "Morning Routine",
         artist: "Ghostrifter",
         cover: "cover-static.jpg",
         file: "morning-routine.mp3"
     },
-
-
 
     {
         title: "Steady Enjoyment",
@@ -218,17 +194,12 @@ window.relax = [{
         file: "steady-enjoyment.mp3"
     },
 
-
-
     {
         title: "Still Awake",
         artist: "Ghostrifter",
         cover: "cover-static.jpg",
         file: "still-awake.mp3"
     },
-
-
-
 
     {
         title: "Sweet",
@@ -237,10 +208,6 @@ window.relax = [{
         file: "sweet.mp3"
     },
 
-
-
-
-
     {
         title: "Coral",
         artist: "LiQWYD",
@@ -248,92 +215,3 @@ window.relax = [{
         file: "coral.mp3"
     }
 ];
-
-
-
-
-
-
-
-
-// Quiet Time - By David Fesliyan
-
-// Heaven - By David Fesliyan
-
-// Cathedral Ambience - By David Renda
-
-// In The Moment - By Steve Oxen
-
-// Not Much To Say - By David Fesliyan
-
-
-
-// Elven Forest - By David Renda
-
-// Homework - By David Fesliyan
-
-
-
-
-
-
-
-// //Study
-// 
-
-
-
-
-// Wild Strawberry
-// Purrple Cat.
-
-// 
-// Purrple Cat.
-
-
-// 
-// Purrple Cat
-
-// Midnight snack
-// Purrple Cat
-
-// Storm Clouds  nao achei
-// Purrple Cat
-
-
-
-
-
-
-// // Outra playlist
-
-
-
-
-
-
-// Sunset Eyes
-// INOSSI.
-
-// Coral by LiQWYD
-
-
-
-
-
-
-
-
-// //HIPHOP
-
-// Urban Hip - Hop
-// MaxKoMusic.
-// [Lofi Study Music] Midnight Stroll by Ghostrifter Official
-
-// Lo - Fi Lounge Chill Hip Hop | CITY
-// Alex - Productions.4099.
-
-//variadas
-
-
-// Shipwreck Cove by Purrple Cat

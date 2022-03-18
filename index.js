@@ -20,14 +20,6 @@ var buttonRelax = document.querySelector("#button-relax")
 
 window.addEventListener("load", player.start());
 
-
-// document.querySelector("#button-hiphop").addEventListener("click", () => {
-
-//     player.audioData = hiphop;
-//     player.update();
-
-// });
-
 document.querySelector("#play-pause").addEventListener("click", playOrPause);
 
 document.querySelector("#volume-icon").addEventListener("click", () => {
@@ -51,19 +43,20 @@ document.querySelector("#seekbar").addEventListener('change', () => {
 
 });
 
-
+// Volta a música
 document.querySelector("#previous-track").addEventListener("click", () => {
     player.previous();
     player.update();
     player.playMusic();
 });
 
+// Próxima música
 document.querySelector("#next-track").addEventListener("click", () => {
     player.next();
     player.playMusic();
 });
 
-
+// Verifica e da play ou pause na música
 function playOrPause() {
 
     if (!player.isPLaying) {
@@ -80,10 +73,12 @@ function playOrPause() {
 
 }
 
+// Icone do tema, adicionado evento de clique
 document.querySelector("#icon-theme").addEventListener("click", openMenu);
 document.querySelector("#icon-theme-close").addEventListener("click", closeMenu);
 
 
+// Abrir menu do tema
 function openMenu() {
 
     sidebar.style.right = "0";
@@ -93,6 +88,7 @@ function openMenu() {
     iconTheme.style.visibility = "hidden";
 };
 
+// Fechar menu do tema
 function closeMenu() {
 
     sidebar.style.right = "-100%";
@@ -102,24 +98,7 @@ function closeMenu() {
 
 };
 
-function toggleMenu() {
-    menuToggle.classList.toggle('active');
-    sidebar.classList.toggle('active');
-
-    iconThemeClose.style.visibility = "visible";
-    iconTheme.style.visibility = "hidden";
-
-
-    if (sidebar.classList.toggle = 'active') {
-        iconThemeClose.style.visibility = "visible";
-        iconTheme.style.visibility = "hidden";
-    } else {
-        iconThemeClose.style.visibility = "hidden";
-        iconTheme.style.visibility = "visible";
-    }
-}
-
-
+//Adiciona evento de clique nos botões de seleção de cores
 document.querySelector("#radio-theme-blue").addEventListener("click", () => {
 
     theme.themeBlue();
@@ -165,7 +144,7 @@ document.querySelector("#radio-theme-gray").addEventListener("click", () => {
 });
 
 
-
+// Evento de clique para escolha dos estilos de música
 buttonHipHop.classList.toggle('active');
 
 buttonHipHop.addEventListener("click", () => {
@@ -208,14 +187,12 @@ document.querySelector("#button-relax").addEventListener("click", () => {
 });
 
 
-
-
-
-
+// Tema Light, evento de clique
 document.querySelector("#theme-light").addEventListener("change", () => {
     theme.changetoLightTheme();
 });
 
+// Tema Dark, evento de clique
 document.querySelector("#theme-dark").addEventListener("change", () => {
     theme.changetoDarkTheme();
 });
